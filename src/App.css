@@ -1,0 +1,52 @@
+.App {
+  width: 450px;
+  min-height: 100vh;
+  background-image: url('/bg-home.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.mainWeather {
+    padding: 2.5rem 1.5em;
+    text-align: center;
+    line-height: 65px;
+}
+
+.mainWeather .city {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.mainWeather .degree {
+    font-size: 96px;
+    font-weight: 100;
+}
+
+.mainWeather .descWeather,
+.hl p {
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(235, 235, 245, 0.6);
+}
+
+.mainWeather .hl {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hl p {
+    color: #fff;
+    line-height: 0;
+}
+
+.imgHouseContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgHouseContainer img {
+    width: 80%;
+}
